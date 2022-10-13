@@ -1,0 +1,22 @@
+/*responsive*/
+@media (max-width: 1200px) {
+  .Foodbank-container {
+    width: 100%;
+    position: relative;
+    right: 20%;
+  }
+}
+@media (max-width: 767px) {
+  .Foodbank-container {
+    width: 100%;
+    position: relative;
+    right: 35%;
+  }
+  @media (max-width: 574px) {
+    .Foodbank-container {
+      width: 90%;
+      position: relative;
+      left: 20%;
+    }
+  }
+}

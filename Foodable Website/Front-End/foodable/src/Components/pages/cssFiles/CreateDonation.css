@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Dosis";
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: floralwhite;
+}
+
+.navbar {
+  width: 88%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #1d8787;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.buttons {
+  color: black;
+  text-align: center;
+  margin: 0px;
+  padding: 15px 32px;
+  padding: right;
+}
+
+.sidemenu {
+  width: 88%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 85px;
+}
+
+.sidemenu ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.sidemenu ul li a {
+  text-decoration: none;
+  color: #1d8787;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.sidemenu li {
+  padding: 13px 0px;
+}
+.create-form {
+  align-items: center;
+  justify-content: center;
+}
+.profilecontainer {
+  background-color: white;
+  border-radius: 30px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 10px;
+  padding-bottom: 1000px;
+}
+
+.profilephoto {
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.Title {
+  padding-left: 100px;
+  padding-top: 35px;
+  font-size: 60px;
+}
+
+.donations {
+  margin-left: 25%;
+  margin-top: 30px;
+}
+
+.donation-1 {
+  margin-bottom: 20px;
+}
+
+.ptitle {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.itemlist {
+  margin-top: 25px;
+}
+
+ul.ilist {
+  list-style: none;
+  width: 500px;
+}
+.ilist {
+  background: #1d8787;
+  text-align: center;
+  margin-left: 850px;
+  line-height: 40px;
+  border-radius: 20px;
+  border-style: solid;
+  transition: 0.5s linear;
+}
+
+.ilist span {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  text-align: center;
+}
+
+.itemform {
+  margin-left: 100px;
+  padding-top: 50px;
+}
+
+.titleil {
+  margin-bottom: 20px;
+}
+
+.input {
+  margin-top: 10px;
+}
+
+.nameinput {
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.itemq {
+  padding-left: 20px;
+}
+
+.itemquantity {
+  margin-top: 20px;
+}
+
+.dtitle {
+  margin-top: 20px;
+}
+
+.extitle {
+  margin-top: 20px;
+}
+
+.imagetitle {
+  margin-top: 20px;
+}
+
+.sub-btn {
+  margin-top: 20px;
+  margin-left: 50px;
+  background-color: #1d8787;
+  border: none;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.cdbackground {
+  background-color: bisque;
+  padding-bottom: 1000px;
+  border-radius: 25px;
+}
+
+.cp-btn {
+  margin-top: 20px;
+  margin-left: 1000px;
+  background-color: #1d8787;
+  border: none;
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+}
