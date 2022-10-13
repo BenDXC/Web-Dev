@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: floralwhite;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.single {
+  box-shadow: 1px 1px 4px 1px rgb(31, 30, 30);
+  margin: 20px auto 20px auto;
+
+  background-color: floralwhite;
+  border-radius: 5px;
+  /* width: 60%; */
+}
+
+.single h2 {
+  color: black;
+  box-shadow: 1px 1px 1px 1px rgb(31, 30, 30);
+  background-color: rgb(53, 148, 145, 432);
+  border-radius: 5px;
+  /* text-decoration: underline red: */
+}
+
+.single a {
+  text-decoration: underline rgb(12, 12, 12);
+  font-size: 12;
+}
+
+.btns {
+  margin: 20px auto 20px auto;
+  width: 200%;
+}
+
+.btns button {
+  padding: 10px;
+  margin: 10px 10px;
+  width: 90px;
+  border-radius: 5px;
+  background-color: rgb(53, 148, 145);
+  color: white;
+  font-weight: 600;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+
+.logo {
+}
+
+.pageResults {
+  box-shadow: 1px 1px 1px 1px;
+  padding: 10px 50px 10px 50px;
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.instruction {
+  font-weight: 600;
+  color: rgb(53, 148, 145);
+}
