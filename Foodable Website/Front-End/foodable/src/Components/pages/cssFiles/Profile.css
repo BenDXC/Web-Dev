@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: floralwhite;
+}
+.profilecontainer {
+  background-color: bisque;
+  border-radius: 100px;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.profilephoto {
+  float: right;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.username {
+  padding-left: 100px;
+  padding-top: 35px;
+  font-size: 60px;
+}
+
+.donations {
+  margin-left: 25%;
+  margin-top: 30px;
+}
+
+.donation-1 {
+  margin-bottom: 20px;
+}
+.avatar {
+  width: 250px;
+  height: 200px;
+}
+.form-group {
+  background-color: bisque;
+}
+
+.editprofile {
+  background-color: bisque;
+  border-radius: 180px;
+  padding-bottom: 60px;
+  padding-top: 180px;
+  text-align: center;
+}
+.form-control {
+  transform: translateX(25%);
+}
+
+.mtitle {
+  font-size: xx-large;
+}
+
+.cpp {
+  text-align: center;
+  font-size: larger;
+  color: #1d8787;
+}
+
+.imagebtn {
+  margin-top: 10px;
+  margin-left: 90px;
+}
+
+.pititle {
+  margin-top: 10px;
+  font-size: xx-large;
+  color: #1d8787;
+}
+
+.fnlabel {
+  margin-top: 20px;
+}
+
+.sub-btn {
+  margin-top: 25px;
+}
